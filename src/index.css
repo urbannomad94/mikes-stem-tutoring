@@ -10,6 +10,10 @@ body {
 
 /* Navbar */
 
+nav {
+  white-space: nowrap;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -26,18 +30,74 @@ body {
   font-family: Karla, sans-serif;
 }
 
-.nav-sections {
-  display: flex;
-  gap: 10px;
-}
-
 nav a {
   color: #fff;
   text-decoration: none;
 }
 
-.nav-sections a:hover {
+nav ul {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a:hover {
   color: rgb(192, 192, 192);
+}
+
+/* Hamburger Menu for Mobile */
+
+.toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-btn .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .toggle-btn {
+    display: flex;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-sections {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-sections li {
+    text-align: center;
+  }
+
+  .nav-sections.active {
+    display: flex;
+    padding: 10px 0;
+    background-color: #205295;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+  }
 }
 
 /* Contact Form */
@@ -104,4 +164,11 @@ form textarea {
 
 .btn:active {
   transform: scale(0.9);
+}
+
+/* Responsive */
+@media (max-width: 930px) {
+  .nav-logo {
+    font-size: 12px;
+  }
 }
