@@ -7,6 +7,8 @@ body {
   box-sizing: border-box;
   background-color: #2C74B3;
   color: white;
+  margin-bottom: 10px;
+  padding: 0 20px;
 }
 
 /* Navbar */
@@ -141,6 +143,38 @@ nav li a:hover {
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+  }
+}
+
+/* Services */
+#services h2 {
+  margin: 0;
+  font-family: Karla, sans-serif;
+}
+
+#services p {
+  margin-bottom: 0;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.service {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 15px;
+  width: 30%;
+  background-color: #205295;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .service {
+    width: 40%;
   }
 }
 
