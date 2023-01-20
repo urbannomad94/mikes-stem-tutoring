@@ -18,10 +18,10 @@ export const Navbar = () => {
         <span className="bar"></span>
       </a>
       <ul className={`nav-sections ${menuOpen ? 'active' : ''}`}>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Prices</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#prices">Prices</a></li>
         <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>

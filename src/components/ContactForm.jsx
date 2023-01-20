@@ -55,6 +55,7 @@ export const ContactForm = () => {
             <button type="submit" className='btn' disabled={state.submitting}>
                 Submit
             </button>
+            <span>Reach out to me and I will get back to you as soon as possible.</span>
         </form>
     );
 }

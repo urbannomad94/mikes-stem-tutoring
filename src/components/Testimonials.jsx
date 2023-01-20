@@ -1,5 +1,7 @@
 export const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section id='testimonials'>
+      <h1 className='section-heading'>Testimonials</h1>
+    </section>
   )
 }
