@@ -1,7 +1,7 @@
 export const ServicesAndPrices = () => {
   return (
     <section id='prices'>
-      <h1 className='section-heading'>Prices</h1>
+      <h1 className='section-heading'>Services and Prices</h1>
       <span>Fees range depending on requested service(s) and level of work:</span>
       <div className="prices-container">
         <div className="price-option">
