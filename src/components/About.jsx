@@ -7,7 +7,7 @@ export const About = () => {
       <div className='about-flex'>
         <img src={headshot} alt="headshot" className='headshot' />
         <div className='about-desc'>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nostrum alias laboriosam quae tempora asperiores ex perspiciatis? Possimus, distinctio mollitia ipsa impedit ex assumenda totam corrupti. Laborum nemo est officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nostrum alias laboriosam quae tempora asperiores ex perspiciatis? Possimus, distinctio mollitia ipsa impedit ex assumenda totam corrupti. Laborum nemo est officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nostrum alias laboriosam quae tempora asperiores ex perspiciatis? Possimus, distinctio mollitia ipsa impedit ex assumenda totam corrupti. Laborum nemo est officia.</p>
+          <p>I have over 25 years of teaching experience in both college and high school education. I am highly experienced in teaching Advanced Placement (AP) and International Baccalaureate (IB) programs, with a deep understanding of the curricula and pedagogy required for success in these rigorous programs. My wealth of experience allows me to effectively engage, explain, guide and support students to reach their full potential. I have a proven track record of helping students achieve their goals and excel in their studies. Overall, I am a seasoned educator who brings a wealth of knowledge, expertise, and passion for science education.</p>
         </div>
       </div>
     </section>
